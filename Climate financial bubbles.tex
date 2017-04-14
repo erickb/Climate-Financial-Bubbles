@@ -171,11 +171,12 @@ where $\xi_{h}$ and $\xi_{l}$ are the productivity of high-carbon and low-carbon
 \label{sec:income}
 %%%%%%%%%%%%%%%%%%
 
-In every period households consume a proportion $\alpha_1$ of their expected real disposable income $yd^e$ and a proportion $\alpha_2$ of their previous period real wealth\footnote{We assume different propensities to consume depending on the type of income (i.e. capital vs. labor) and on the type of wealth (i.e. money holding vs. financial wealth).}. We follow \citet{Godley:2007} in defining real expected disposable income as the difference between real expected income and the loss of real wealth due to inflation.
+In every period households consume a proportion $\alpha_1$ of their expected real disposable income $yd^e$ and a proportion $\alpha_2$ of their previous period real wealth. While in reality most households receive a mix of wage and financial income, we simplify the analysis by representing two types of households: wage and salary earners who hold money balances; and dividend earners who hold financial wealth. Each type of household has different propensities to consume out of income and wealth. We follow \citet{Godley:2007} in defining real expected disposable income as the difference between real expected income and the loss of real wealth due to inflation,
 \begin{align}
 c&=\alpha_1 yd^e + \alpha_2 v_{-1},\\
 yd^e&=\dfrac{YD^e}{p_c}-\pi_c \dfrac{V_{-1}}{p_c}.
 \end{align}
+While there is some redundancy in having consumption depend on wealth, with saving as a residual, a wealth effect on consumption is supported by theory and observed in data \citet{poterba_stock_2000}. Changes in capital gains have also been observed to influence saving rates \citet{juster_decline_2006}. We adopt conventional values for the marginal propensity to consume out of wealth, with $\alpha_2 = 0.02$ for financial wealth and $0.05$ for money holdings. These estimates are consistent with short-term (e.g., one quarter) responses to changes in all forms of wealth \citet{poterba_stock_2000}. The longer-term response is significantly larger \citet{carroll_how_2011}, as is the response to capital gains on stocks compared to other forms of wealth \citet{juster_decline_2006}, so the values assumed in model runs may understate the impact of changes in real wealth on consumption and saving.
 
 Nominal disposable income of wage-earners $YD_w$ is given by the sum of sectoral wage bills (equal to the wage rate $W_x$ times the number of people employed $n_x$)
 \begin{align}
